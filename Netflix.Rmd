@@ -47,7 +47,7 @@ Res <- Res %>% mutate( id = movie_id ) %>% select(id, movie_zh_name)
 Netflix_df_zh <- Netflix_df %>% left_join(Res)
 Netflix_df_zh %>% write_csv("Netflix_df_zh-name.csv")
 
-#text
+# 1234567
 
 # 87,101(?)可能有問題
 # 有些跑NA看我們能不能手動補，抓資料的時候不知道有少數三四個會跑error，就有一些資訊斷掉QQQQ
